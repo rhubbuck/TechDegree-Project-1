@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: rgb(54, 58, 58);
 }
 /* Link Styles */
 
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: rgb(54, 58, 58);
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/smoky-mountins.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -66,18 +66,18 @@ header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 50px;
-  width: 150px;
+  margin-top: 100px;
+  width: 180px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 5px solid plum;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.4) rotate(10deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color: plum;
   color: black;
   padding: 10px;
   border-radius: 5px;
@@ -85,15 +85,15 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color:plum;
+  color: black;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: rgb(241, 229, 229);
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
@@ -202,6 +202,13 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
+  article {
+    color: white; 
+    padding-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 100px;
+    text-align: center;
+  }
 }
 
